@@ -131,3 +131,57 @@ section.my-banner-sec {
     font-size: 50px;
     margin-bottom: 12px;
 }
+/* Footer css styles */
+footer {
+    background: #151414;
+}
+
+.main-fotter {
+    display: flex;
+    padding: 50px 0px;
+}
+.footer-left {
+    color: #fff;
+}
+
+.footer-left h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    color: #bbb;
+    font-size: 18px;
+}
+.email-num {
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.email-num p {
+    line-height: 30px;
+}
+.footer-right {
+    margin-left: 300px;
+}
+
+.footer-right h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.footer-right input {
+    background: #fff0;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+button.subcriber {
+    background: #005FAC;
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+}
