@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* Banner css styles */
 .banner-area{
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -45,3 +46,68 @@ button.btn-primary {
     justify-content: end;
     margin-top: 20px;
 }
+/* About Css Styles */
+section.about-me {
+    padding: 100px 0px;
+}
+
+.my-about-content {
+    display: flex;
+}
+
+.my-img img {
+    width: 350px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.my-img {
+    width: 100%;
+}
+.my-descr {
+    padding-top: 120px;
+    padding-right: 160px;
+}
+
+.my-descr h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-descr p {
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.my-descr ul {
+    list-style: none;
+}
+
+.my-descr ul li {
+    color: #444343;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* my skill css styles */
+.skill-title {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.all-skills {
+    display: flex;
+    justify-content: space-around;
+}
+.single-skill h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.single-skill span {color: #333;}
